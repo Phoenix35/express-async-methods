@@ -1,0 +1,37 @@
+{
+  "name": "@phoenix35/express-async-methods",
+  "version": "0.1.0",
+  "description": "Augments express with Async methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phoenix35/express-async-methods.git"
+  },
+  "keywords": [
+    "express",
+    "async-await"
+  ],
+  "author": "Phoenix35",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Phoenix35/express-async-methods/issues"
+  },
+  "homepage": "https://github.com/Phoenix35/express-async-methods#readme",
+  "optionalDependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
+  },
+  "devDependencies": {
+    "@phoenix35/eslint-config": "^0.5.0",
+    "eslint": "^7.29.0",
+    "eslint-plugin-jsdoc": "^35.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^9.0.2",
+    "superagent": "^6.1.0"
+  }
+}

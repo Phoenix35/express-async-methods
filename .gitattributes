@@ -1,0 +1,39 @@
+# Auto detect text files and perform LF normalization
+*          text=auto
+
+# Documents
+*.md       text diff=markdown
+
+# Exclude files from exporting
+.gitattributes export-ignore
+.gitignore     export-ignore
+
+#
+# Web
+#
+
+# Documentation
+AUTHORS           text
+CHANGELOG         text
+CHANGES           text
+CONTRIBUTING      text
+COPYING           text
+copyright         text
+*COPYRIGHT*       text
+INSTALL           text
+license           text
+LICENSE           text
+NEWS              text
+readme            text
+*README*          text
+TODO              text
+
+# Configs
+package.json      text eol=lf
+package-lock.json text -diff
+
+# RC files (like .babelrc or .eslintrc)
+*.*rc*            text
+
+# Ignore files (like .npmignore or .gitignore)
+*.*ignore         text
